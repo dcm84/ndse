@@ -3,8 +3,7 @@
   "version": "0.0.1",
   "description": "ndse homeworks",
   "main": "index.js",
-  "scripts": {
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/dcm84/ndse.git"
@@ -17,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/dcm84/ndse/issues"
   },
-  "homepage": "https://github.com/dcm84/ndse#readme"
+  "homepage": "https://github.com/dcm84/ndse#readme",
+  "dependencies": {
+    "yargs": "^17.5.1"
+  }
 }

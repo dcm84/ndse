@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/dcm84/ndse#readme",
   "dependencies": {
+    "readline-promise": "^1.0.5",
     "yargs": "^17.5.1"
   }
 }

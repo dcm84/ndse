@@ -1,21 +1,26 @@
 {
-  "name": "ndse",
-  "version": "0.0.1",
-  "description": "ndse homeworks",
-  "main": "index.js",
-  "scripts": {
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/dcm84/ndse.git"
-  },
-  "keywords": [
-    "ndse"
-  ],
-  "author": "dcm84",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/dcm84/ndse/issues"
-  },
-  "homepage": "https://github.com/dcm84/ndse#readme"
+    "name": "ndse",
+    "version": "0.0.1",
+    "description": "ndse homeworks",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js",
+        "dev": "node -r dotenv/config index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/dcm84/ndse.git"
+    },
+    "keywords": [
+        "ndse"
+    ],
+    "author": "dcm84",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/dcm84/ndse/issues"
+    },
+    "homepage": "https://github.com/dcm84/ndse#readme",
+    "devDependencies": {
+        "dotenv": "^16.0.1"
+    }
 }
